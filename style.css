@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+header {
+  background: #1f2937;
+  color: #f9faf8;
+  height: 31em;
+  padding: 1em 10em;
+}
+header .maintext {
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .navbar .logo {
+  font-size: 24px;
+}
+
+header .menus {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header .menus li a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+text {
+  display: flex;
+  align-items: center;
+}
+
+text .div {
+  /* justify-content: center; */
+}
