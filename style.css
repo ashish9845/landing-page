@@ -7,7 +7,7 @@
 
 header {
   background: #1f2937;
-  color: #f9faf8;
+  /* color: #f9faf8; */
   height: 31em;
   padding: 1em 10em;
 }
@@ -21,6 +21,7 @@ header .navbar {
 
 header .navbar .logo {
   font-size: 24px;
+  color: #f9faf8;
 }
 
 header .menus {
@@ -40,5 +41,6 @@ text {
 }
 
 text .div {
-  /* justify-content: center; */
+  color: #f9faf8;
+  font-size: 48px;
 }
